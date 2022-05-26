@@ -84,7 +84,7 @@ if(!isset($_SESSION['loggedin'])){
                 <h2 style="text-align: center;margin-top: 10px; color: #000376;" class="form-signin-heading">Company Placed</h2>
                 <div style="margin-left: 20px;margin-right: 20px;">
                     <div class="form-group">
-                        <input type="text" class="form-control medium-text-field" placeholder="Hall Ticket No" name="htno" id="htno" required="" value="" aria-label="HtNo">
+                        <input type="text" class="form-control medium-text-field" placeholder="Hall Ticket No" name="htno" id="htno" required="" value="<?php echo $_SESSION['htno'] ?>" aria-label="HtNo" disabled>
                     </div>
                     <div class="form-group">
                         <input type="text" class="form-control medium-text-field" placeholder="Company Name" name="name" id="name" required="" value="" aria-label="Name">
@@ -133,7 +133,7 @@ if(!isset($_SESSION['loggedin'])){
                 <h2 style="text-align: center;margin-top: 10px; color: #000376;" class="form-signin-heading">Company Placed</h2>
                 <div style="margin-left: 20px;margin-right: 20px;">
                     <div class="form-group">
-                        <input type="text" class="form-control medium-text-field" placeholder="Hall Ticket No" name="htno" id="htno" required="" value="" aria-label="HtNo">
+                        <input type="text" class="form-control medium-text-field" placeholder="Hall Ticket No" name="htno" id="htno" required="" value="<?php echo $_SESSION['htno'] ?>" aria-label="HtNo" disabled>
                     </div>
                     <div class="form-group">
                         <input type="text" class="form-control medium-text-field" placeholder="Company Name" name="name" id="name" required="" value="" aria-label="Name">

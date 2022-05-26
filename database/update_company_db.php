@@ -13,13 +13,15 @@ if(isset($_POST['update'])){
         $query->bindParam("companyName", $companyName, PDO::PARAM_STR);
         $query->bindParam("htno", $htno, PDO::PARAM_STR);
         $result = $query->execute();
+        
         if ($result) {
-            echo '<p class="success">Your updation was successful!</p>';
-            header('Location: ../edit.php');
-            echo alert("Your updation was successful!");
+            echo '<script>alert("Your updation was successful!")</script>';
+            echo "<script type='text/javascript'>location.href = '../edit.php';</script>";
+            
         } else {
             echo '<p class="error">Something went wrong!</p>';
         }
+        
     }
 }
 ?>

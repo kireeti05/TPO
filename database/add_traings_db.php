@@ -22,8 +22,8 @@ if (isset($_POST['addTraining'])) {
   $result = $query->execute();
 
   if($result){
-    echo '<p class="success">Training added successfully!!</p>';
-    header('Location: ../admin_add_traings.php');
+    echo '<script>alert("Your updation was successful!")</script>';
+    echo "<script type='text/javascript'>location.href = '../admin_add_trainings.php';</script>";
   }
   else{
     echo '<p class="error">Something went wrong</p>';

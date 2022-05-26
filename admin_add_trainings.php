@@ -30,7 +30,7 @@ if(!isset($_SESSION['aloggedin'])){
 			<li><img src="./images/logo.jpg"  style="margin-left:0px;margin-right: auto; width:50%; height:100px;"></li>
 			<li><a href="admin_registered.php"> Required Lists </a></li>
 			<li><a href="database/admin_feedback_db.php"> Feedback </a></li>
-			<li><a href="admin_add_traings.php" class="active1"> Add Traings </a></li>
+			<li><a href="admin_add_trainings.php" class="active1"> Add Trainings </a></li>
 			<li><a href="admin_add_jobs.php"> Add Jobs </a></li>
 			<li><a href="logout.php">Logout</a></li>
 		</ul>
@@ -40,7 +40,7 @@ if(!isset($_SESSION['aloggedin'])){
     <form id="addTraings" name="addTraings" title="Add Traings" role="form" method="post" action="database/add_traings_db.php">
                 <br>
                 <br>
-                <h2 style="text-align: center;margin-top: 0px; color: #000376;" class="form-signin-heading">ADD TRAINGS</h2>
+                <h2 style="text-align: center;margin-top: 0px; color: #000376;" class="form-signin-heading">ADD TRAININGS</h2>
                 <div style="margin-left: 20px;margin-right: 20px;">
                     <div class="form-group">
                         <input type="text" class="form-control medium-text-field" placeholder="Instructor Name" name="name" id="name" required="" value="" aria-label="name">

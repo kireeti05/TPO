@@ -30,7 +30,7 @@ if(!isset($_SESSION['aloggedin'])){
 			<li><img src="./images/logo.jpg"  style="margin-left:0px;margin-right: auto; width:50%; height:100px;"></li>
 			<li><a href="admin_registered.php" class="active1"> Required Lists </a></li>
 			<li><a href="database/admin_feedback_db.php"> Feedback </a></li>
-			<li><a href="admin_add_traings.php"> Add Traings </a></li>
+			<li><a href="admin_add_trainings.php"> Add Trainings </a></li>
 			<li><a href="admin_add_jobs.php"> Add Jobs </a></li>
 			<li><a href="logout.php">Logout</a></li>
 		</ul>
