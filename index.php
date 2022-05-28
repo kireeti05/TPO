@@ -49,14 +49,14 @@
 				<img src="images/7img.jpg">      
 			</div>
 			</div>
-	<div>
-  <a href="placementDetails.php"><h1 class="by" style=" text-align: center; color:blue;text-decoration: none;">TOTAL PLACEMENTS</h1></a><center><div class="counter" style=" font-size:60px; color:blue;">221</div></center>
+	</div>
+	<div class="container main">
+    <div>
+  <a href="placementDetails.php"><h1 class="by" style=" text-align: center; color:blue;text-decoration: none;">TOTAL PLACEMENTS</h1></a><center><div style=" font-size:60px; color:blue;">221</div></center>
 	</div>
 		<div>
 			<H3 class="testimonialsHeading" style="font-weight: bold; clear: both;">TESTIMONIALS</H3><br><br>
 		</div>
-	</div>
-	<div class="container main">
     <center>
         <div class="row one">
             <div class="col-sm-4 pic"> <img class="img1" src="./images/RJC.jpeg"> </div>
@@ -83,6 +83,12 @@
     </center>
 </div>
 <div class="container main1">
+<div>
+  <a href="placementDetails.php"><h1 class="by" style=" text-align: center; color:blue;text-decoration: none;">TOTAL PLACEMENTS</h1></a><center><div class="counter" style=" font-size:60px; color:blue;">221</div></center>
+	</div>
+		<div>
+			<H3 class="testimonialsHeading" style="font-weight: bold; clear: both;">TESTIMONIALS</H3><br><br>
+		</div>
     <center>
     <div>
             <div> <img class="img1" src="./images/RJC.jpeg"> </div>
